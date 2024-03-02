@@ -42,25 +42,25 @@ img {
 
 .relative__img img {
     display: block;
-    margin: 5vw 0 0 auto;
-    width: 50vw;
-    height: 25vw;
+    margin: 6vw 0 0 auto;
+    width: 47vw;
+    height: 30vw;
     z-index: -1;
 }
 
 .absolute__txt {
     display: flex;
-    font-size: 5vw;
-    top: 25vw;
+    font-size: 4.5vw;
+    top: 30vw;
     font-weight: lighter;
     position: absolute;
 }
 
 .absolute__blue-box {
     display: flex;
-    top: 30vw;
-    height: 12vw;
-    width: 70vw;
+    top: 34vw;
+    height: 13vw;
+    width: 73vw;
     position: absolute;
     background-color: navy;
     z-index: -10;
