@@ -1,0 +1,68 @@
+.header {
+    width: 100vw;
+    margin: 1vw;
+    display: flex;
+    color: navy;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 2vw;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: bolder;
+    margin: 1vw;
+
+
+
+
+}
+
+.menu li {
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+.relative {
+    position: relative;
+    display: flex;
+    width: 100vw;
+
+}
+
+img {
+    width: 100vw;
+}
+
+.relative__img img {
+    display: block;
+    margin: 5vw 0 0 auto;
+    width: 50vw;
+    height: 25vw;
+    z-index: -1;
+}
+
+.absolute__txt {
+    display: flex;
+    font-size: 5vw;
+    top: 25vw;
+    font-weight: lighter;
+    position: absolute;
+}
+
+.absolute__blue-box {
+    display: flex;
+    top: 30vw;
+    height: 12vw;
+    width: 70vw;
+    position: absolute;
+    background-color: navy;
+    z-index: -10;
+
+}
